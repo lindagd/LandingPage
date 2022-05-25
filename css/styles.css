@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Oxygen&family=Righteous&display=swap");
+
+body {
+  background-color: #000;
+  background: rgb(0,0,0);
+background: linear-gradient(216deg, #000000 3%, #3c183f 56%, #422e46 78%);
+  font-family: "Oxygen", sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
+
+.navbar {
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.navbar .matricule-se {
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: #8364a5;
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #8364a5;
+}
+
+.main {
+  width: 100%;
+  padding: 0;
+}
+
+.top {
+  margin: 0;
+  color: #fff;
+  padding: 80px 100px;
+}
+
+.my-button {
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #8364a5;
+  border: 2px solid #8364a5;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+.my-button:hover {
+  background-color: transparent;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  text-shadow: 3px 0px 0px rgba(236, 225, 245, 0.733);
+  color: #8364a5;
+  font-size: 100px;
+  line-height: 1.3;
+}
+
+h2,
+h3{
+  font-family: "Baloo Da 2", cursive;
+  line-height: 1.2;
+}
+
+.middle {
+  background-color: #f9f6fc;
+  padding: 50px;
+  text-align: center;
+}
+
+hr {
+  margin: 0 0 10px 0;
+}
+
+.middle .d-flex {
+  margin: 20px 0;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.d-flex div {
+  width: 400px;
+  box-shadow: 0px 6px 9px -2px rgba(0,0,0,0.4);
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.middle .d-flex a {
+  display: block;
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+}
+
+.middle img {
+  width: 250px;
+  height: 250px;
+}
+
+.sessao2-titulo {
+  background-color: #8364a5;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  padding: 10px 0;
+}
+
+footer {
+  padding: 40px 25px 10px 25px;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+}
+
+footer h3 {
+  letter-spacing: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color:#ece1f5bb;
+  transition-duration: 1s;
+}
+
+footer a:hover {
+  color: #000
+}
+
+#icons, #icons a {
+  color: white;
+  margin: 0 0 10px 0;
+}
